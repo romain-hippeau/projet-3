@@ -1,0 +1,244 @@
+@mixin ultra-tall {
+    @media screen and (max-width:1000px) and (min-width:655px) {
+        .up 
+        {
+            
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backColor-4;
+            animation: image 7s 2s ease forwards;
+            .up-body
+            {
+                width: 95%;
+            }
+    }
+  
+}}
+
+ @mixin tall {
+    @media screen and (max-width:654px) and (min-width:576px) {
+        .up 
+        {
+            
+            height: 1050px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backColor-4;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+@mixin middle {
+    @media screen and (max-width:575px) and (min-width:483px) {
+        .up 
+        {
+            
+            height: 1100px;
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backColor-4;
+            animation: image 7s 2s ease forwards;
+    }
+    footer
+    {
+        h3 { 
+        font-size: 0.7em;
+    }
+}}}
+@mixin small {
+    @media screen and (max-width:482px)and(min-width:361px) {
+        .up 
+        {
+            
+            height: 905px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backColor-4;
+            animation: image 7s 2s ease forwards;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      .title_menu{
+        h4{
+          font-size: 0.6em;
+        }
+      }
+      section .article .img {
+        flex-basis: 30%;
+    }
+    section .title{
+      flex-basis: 40%;
+    }
+      section .menu-1 .menu-top {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+      }
+      section .menu-1 .menu-middle {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+      }
+      section .menu-1 .menu-down {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+      }
+      footer h3 {
+        font-size: 0.7em;
+      }
+}}
+ @mixin extra-small {
+    @media screen and (max-width:375px)and(min-width:342px) {
+        .up 
+        {
+            
+            height: 984px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backColor-4;
+            animation: image 7s 2s ease forwards;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      .title_menu{
+        h4{
+          font-size: 0.6em;
+        }
+      }
+      section .article .img {
+        flex-basis: 22.5%;
+    }
+    section .title{
+      flex-basis: 55%;
+    }
+      section .menu-1 .menu-top {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        .img{
+          flex-basis: 40%;
+        }
+        .title{
+          flex-basis: 20%;
+        }
+      }
+      section .menu-1 .menu-middle {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+      }
+      section .menu-1 .menu-down {
+        margin: 1em 1em;
+        .price{
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+      }
+      footer h3 {
+        font-size: 0.7em;
+      }}
+}
+        @mixin xx-small{
+            @media screen and (max-width:341px)and(min-width:320px) {
+                .up 
+                {
+                    
+                    height: 1076px;
+                    width: 100%;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    background-color: $backColor-4;
+                    animation: image 7s 2s ease forwards;
+            }
+            .up .up-body h2 {
+                font-size: 2em;
+              }
+              .up .up-body h1 {
+                font-size: 3em;
+              }
+              .title_menu{
+                h4{
+                  font-size: 0.6em;
+                }
+              }
+              section .article .img {
+                flex-basis: 22.5%;
+            }
+            section .title{
+              flex-basis: 55%;
+            }
+              section .menu-1 .menu-top {
+                margin: 1em 1em;
+                  .title{
+                    flex-basis: 40%;
+                  }
+                .price{
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+              }
+              section .menu-1 .menu-middle {
+                margin: 1em 1em;
+                .price{
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+              }
+              section .menu-1 .menu-down {
+                margin: 1em 1em;
+                .price{
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+                }
+              footer h3 {
+                font-size: 0.7em;
+              }}
+        }

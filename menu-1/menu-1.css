@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+  25% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  50% {
+    -webkit-transform: rotate(1.5deg);
+            transform: rotate(1.5deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+  75% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  100% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+  25% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  50% {
+    -webkit-transform: rotate(1.5deg);
+            transform: rotate(1.5deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+  75% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  100% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+    -webkit-transform: translateX(0.4px);
+            transform: translateX(0.4px);
+  }
+}
+
+@-webkit-keyframes image {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -150%;
+  }
+}
+
+@keyframes image {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -150%;
+  }
+}
+
+@-webkit-keyframes border {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes border {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .menu-1 .menu-top p, section .menu-1 .menu-middle p, section .menu-1 .menu-down p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #579c87;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 0.3em;
+  color: #fdcb46;
+  font-family: 'Rufina',sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+.up {
+  height: 977px;
+  width: 700px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fcdfdb;
+  -webkit-animation: image 7s 2s ease forwards;
+          animation: image 7s 2s ease forwards;
+}
+
+.up .up-body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.up .up-body img {
+  height: 70px;
+  width: 70px;
+}
+
+.up .up-body h2 {
+  font-size: 3em;
+  color: #58272e;
+}
+
+.up .up-body .color {
+  font-family: sans-serif;
+}
+
+.up .up-body h1 {
+  font-size: 4em;
+  margin-top: 1.7em;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 489px) {
+  .up {
+    height: 977px;
+    width: 90%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+}
+
+@media screen and (max-width: 488px) and (min-width: 425px) {
+  .up {
+    height: 1050px;
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+}
+
+@media screen and (max-width: 424px) and (min-width: 330px) {
+  .up {
+    height: 1140px;
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+  footer h3 {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  .up {
+    height: 1270px;
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+  .up-body {
+    width: 99%;
+  }
+  footer h3 {
+    font-size: 0.7em;
+  }
+}
+
+.title-top {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .logo-up {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+section .logo-up .title_menu {
+  font-size: 2em;
+}
+
+section .title-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section .article .img img {
+  width: 100%;
+}
+
+section .article .name-menu {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+}
+
+section .article .price {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  margin-top: 15px;
+}
+
+section .title {
+  text-align: center;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+section .title:hover .content {
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 2px;
+  background: black;
+  -webkit-animation: border 300ms  ease;
+          animation: border 300ms  ease;
+}
+
+section .price {
+  text-align: right;
+}
+
+section .menu-1 {
+  width: 700px;
+  background-color: #fcdfdb;
+  margin-top: 10px;
+  font-family: 'Devonshire',cursive;
+}
+
+section .menu-1 .set {
+  margin: auto;
+  width: 70%;
+}
+
+section .menu-1 .menu-top {
+  display: block;
+  padding-top: 20px;
+}
+
+section .menu-1 .menu-top h3 {
+  text-align: center;
+}
+
+section .menu-1 .menu-top p {
+  text-align: left;
+  margin-top: 15px;
+}
+
+section .menu-1 .menu-middle {
+  display: block;
+  margin-top: 50px;
+}
+
+section .menu-1 .menu-middle h3 {
+  text-align: center;
+}
+
+section .menu-1 .menu-middle p {
+  margin-top: 15px;
+}
+
+section .menu-1 .paragraphe {
+  display: inline-block;
+}
+
+section .menu-1 .menu-down {
+  display: block;
+  margin-top: 50px;
+}
+
+section .menu-1 .menu-down h3 {
+  text-align: center;
+}
+
+section .menu-1 .menu-down p {
+  margin-top: 15px;
+}
+
+section .menu-1 .logo-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4em;
+}
+
+section .menu-1 .logo-down .logo2 img {
+  height: 40px;
+}
+
+section .menu-1 .logo-down .title_down h2 {
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+
+footer {
+  background-color: #579c87;
+}
+
+@media screen and (max-width: 424px) and (min-width: 330px) {
+  footer .up {
+    height: 1140px;
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+  footer footer h3 {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  footer .up {
+    height: 1270px;
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fcdfdb;
+    -webkit-animation: image 7s 2s ease forwards;
+            animation: image 7s 2s ease forwards;
+  }
+  footer .up-body {
+    width: 99%;
+  }
+  footer footer h3 {
+    font-size: 0.7em;
+  }
+}
+
+footer h3 {
+  color: #fdcb46;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+footer h3:hover {
+  -webkit-animation: rotate 300ms ease infinite;
+          animation: rotate 300ms ease infinite;
+}
+
+footer h3 a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=menu-1.css.map */

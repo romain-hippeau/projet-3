@@ -1,0 +1,72 @@
+  @mixin ultra-tall {
+    @media screen and (max-width:1000px) and (min-width:489px) {
+        .up 
+        {
+            
+            height: 977px;
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+
+ @mixin tall {
+    @media screen and (max-width:488px) and (min-width:425px) {
+        .up 
+        {
+            
+            height: 1050px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+@mixin middle {
+    @media screen and (max-width:424px) and (min-width:330px) {
+        .up 
+        {
+            
+            height: 1140px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+    footer
+    {
+        h3 { 
+        font-size: 0.7em;
+    }
+}}}
+@mixin small {
+    @media screen and (max-width:329px) {
+        .up 
+        {
+            
+            height: 1270px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+    .up-body{
+        width: 99%;
+    }
+    footer
+    {
+        h3 { 
+        font-size: 0.7em;
+    }
+}}}

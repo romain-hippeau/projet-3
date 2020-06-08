@@ -1,0 +1,298 @@
+@import 'import/animation';
+@import 'import/heritages';
+@import 'import/mixin';
+@import 'import/variables';
+@import 'import/conditions';
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Kurale', serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: $backColor;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+   h1 {
+    text-align: center;
+    padding-top: 0.3em;
+    color: $headerColor;
+    font-family: 'Rufina',sans-serif;
+    a {
+    text-decoration: none;  
+  }}}
+  .up 
+  {
+      
+      height: 995px;
+      width: 700px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      background-color: $backMenu;
+      animation: image 7s 2s ease forwards;
+      .up-body
+      {
+       position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img 
+        {
+            height: 70px;
+            width: 70px;
+        }
+        h2 
+        {
+            font-size: 3em;
+        }
+        .color{
+            color:$color-2;
+            margin-top: 1em;
+            font-size: 4em;
+        }
+        h1 {
+            font-size: 4em;
+            margin-top: 1.7em;
+            font-family: sans-serif;
+            color: $color-2-2;
+        }
+      .n1 {
+        color:$color-2;
+         }
+         .n2 {
+           color:$color-2-1;
+         }
+         .n3 {
+             color: $color-2-2;
+         }
+        } 
+  }
+  @include ultra-tall;
+  @include small;
+  @include middle;
+ @include tall;
+ @include extra-small;
+ @include xx-small;
+  .title-top
+    {
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    }
+section
+{
+    display: flex;
+    justify-content: center;
+        .title_menu
+        {
+            font-size: 1.5em;
+            text-align: center;
+            margin: 4em 0;
+            .n1 {
+                color:$color-2;
+                 }
+                 .n2 {
+                   color:$color-2-1;
+                 }
+                 .n3 {
+                     color: $color-2-2;
+                 }
+        }
+        .article-3
+        {
+            color:$color-2;
+            margin-right: 1.5em;
+            margin-left: 1.5em;
+        }
+        .article-1
+        {
+            color: $color-2-1;
+            margin-right: 1.5em;
+            margin-left: 1.5em;
+        }
+        .article-2
+        {
+            color: $color-2-2;
+            margin-right: 1.5em;
+            margin-left: 1.5em;
+            display: flex;
+            .img{
+                flex-basis:60%;
+            }
+        }
+    
+    .article 
+    {
+        display: flex;
+        align-content: center;
+        .img{
+            img {
+                width: 100%;
+            }
+           
+        }
+        .name-menu
+        {
+            flex-basis: 80%;
+            
+        }
+        .price
+        {
+            flex-basis: 20%;
+            margin-top: 15px;
+        }
+    }
+    .title 
+    {
+        text-align: center;
+        flex-basis: 60%;
+        &:hover{ 
+            .content-1{ 
+             display: block;
+             margin-left: 1em;
+             margin-right: 1em;
+             background-color: $color-2;
+             height:2px;
+             animation: border 300ms  ease;
+            }}}
+    .price
+    {
+        text-align: right;
+    }
+    .menu-1 
+    {
+        width: 700px;
+        background-color: $backMenu;
+        margin-top: 10px;
+        .set
+        {
+            width: 70%;
+            margin:auto;
+            .n1 {
+                color:$color-2;
+                 }
+                 .n2 {
+                   color:$color-2-1;
+                 }
+                 .n3 {
+                     color: $color-2-2;
+                 }
+            
+        }
+    .menu-top
+    {
+        display: block;
+        color:$color-2;
+       @extend %margin-menu;
+        h3{
+            text-align: center;}
+
+        p 
+        {  
+        text-align: left;
+        @extend %margin;
+    margin-top: 15px;}
+    }
+    .menu-middle
+    {
+     display: block;
+     color:$color-2-1;
+     @extend %margin-menu;
+     .title{ 
+        h3{
+            text-align: center;}
+            &:hover{ 
+                .content-2{ 
+                 display: block;
+                 margin-left: 1em;
+                 margin-right: 1em;
+                 background-color: $color-2-1;
+                 height: 2px;
+                 animation: border 300ms  ease;
+                }}
+        }
+
+        p 
+        {  
+            
+            @extend %margin;
+        margin-top: 15px;}}
+        .paragraphe{
+          display: inline-block;
+        }
+            .menu-down
+            {
+                display: block;
+                color:$color-2-2;
+                @extend %margin-menu;
+                    .title{ 
+                        h3{
+                            text-align: center;}
+                    &:hover{ 
+                        .content-3{ 
+                         display: block;
+                         margin-left: 1em;
+                         margin-right: 1em;
+                         height: 2px;
+                         background-color: $color-2-2;
+                         animation: border 300ms  ease;
+                        }}
+                }
+        
+                p 
+                { 
+              @extend %margin;
+                margin-top: 15px;}
+            }
+                .title_down{
+                    h2 {   
+                    margin-top: 10px;
+                    font-size: 1.6em;
+                    }
+                }
+            }
+}
+@include middle;
+@include small;
+@include extra-small;
+@include xx-small;
+ footer
+{
+   @extend %footer;
+    background-color: $backColor;
+    
+    h3 
+    {
+        color: $headerColor;
+        padding-right: 25px;
+        padding-left: 25px;
+        font-family: sans-serif;
+        margin-top: 5px;
+        &:hover
+        {
+animation: rotate 300ms ease infinite;
+        }
+        
+    }
+    a {
+        text-decoration: none;
+        
+    }
+    @include middle;
+@include small;
+@include extra-small;
+@include xx-small;
+     }

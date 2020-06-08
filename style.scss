@@ -1,0 +1,250 @@
+@import 'import/Variables';
+@import 'import/heritage';
+@import 'import/conditions';
+@import 'import/Variables';
+@import 'import/mixin';
+@import 'import/animation';
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:($primaryColor);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    h1 
+    {
+        padding-top: 0.3em;
+        color: $headerColor;
+        font-family: 'Rufina',sans-serif;
+    }
+    a 
+    {
+        text-decoration: none;
+    }
+}
+
+.mainpage{
+    
+
+.main__menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    .menu-1
+    { 
+        a
+    {
+        @extend %menu;
+        @extend %menu-top;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $BackColor-1;
+        @include portable;
+        &:hover{
+                opacity: 0.7;
+            h3{ 
+            transform: scale(1.2);
+            opacity:2;
+            }
+
+        h4{
+            transform: scale(1.1);
+            opacity:2;
+        }
+     }
+     img{
+         height:50px;
+     }
+    h4 
+    {
+        font-size: 2em;
+        margin-bottom: 5px;
+        color: #58272e;
+        font-family: 'Devonshire', cursive;
+    }
+    h3{
+        font-size: 2em;
+        font-family: cursive;
+        color: #58272e;
+    }
+  
+    }}
+    .menu-2
+    {
+        a{ 
+        @extend %menu;
+        @extend %menu-top;
+        background-color: $BackColor-2;
+        font-family: 'Kurale', serif;
+        &:hover{
+            opacity: 0.6;
+            h3{ 
+                transform: scale(1.4);
+                }
+    
+            h4{
+                transform: scale(1.2);
+            }
+        }}
+        h4 
+        {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        h3{
+            color: $color-2;
+            font-size: 2.5em;
+        }
+        
+            .n1 {
+           color:$color-2;
+            }
+            .n2 {
+              color:$color-2-1;
+            }
+            .n3 {
+                color: $color-2-2;
+            }
+        
+    }}
+    .menu-3
+    {
+        a { 
+        @extend %menu;
+        @extend %menu-down;
+        background-color: $BackColor-3;
+        font-family: 'Dancing script',sans-serif;
+        &:hover{
+            opacity: 0.6;
+            h3{ 
+                transform: scale(1.4);
+                }
+    
+            h4{
+                transform: scale(1.2);
+            }
+        }
+        h4 
+        {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        h3{
+            color: $color-3;
+            font-size: 1.9em;
+            font-family: cursive;
+        }
+        .n1 {
+            color:$color-3;
+             }
+             .n2 {
+               color:$color-3-1;
+             }
+             .n3 {
+                 color: $color-3-2;
+             }
+             h3 
+             {
+                color: #1789f9;
+             }
+    }}
+    .menu-4
+    {
+        a{ 
+        @extend %menu;
+        @extend %menu-down;
+        background-color: $backcolor-4;
+        font-family: 'Kaushan Script', cursive;
+        &:hover{
+           opacity: 0.6;
+         
+            h3{ 
+                transform: scale(1.4);
+            }
+            h4{
+                transform: scale(1.2)
+            }
+        }
+        h4 
+        {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        h3{
+            color: $color-4;
+            font-size: 1.9em;
+        }
+        .n1 {
+            color:$color-4;
+             }
+             .n2 {
+               color:$color-4-1;
+             }
+             
+             h3 
+             {
+                color:$color-4-2;
+             }
+            }
+}}
+@include portable;
+
+    .button
+    {
+        display: flex;
+        justify-content: center;
+        background-color:($primaryColor);
+        margin-left: auto;
+        margin: auto;
+        width: 30%;
+        height: 40px;
+        border-radius: 5px;
+        animation-name: circle;
+        .__title
+        {
+            text-align: center;
+             color: $headerColor;
+             font-size: 2em;
+        }
+        .__1{@extend %circle;animation-delay: 0.5s;margin-left: 10px;}
+        .__2{@extend %circle;animation-delay: 0.7s;}   
+        .__3{@extend %circle;animation-delay: 0.9s;}
+       
+    }
+    @include portable;
+    @include bouton;
+    footer
+    {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        position: sticky;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #579c87;
+        
+        h3 
+        {
+            color: #fdcb46;
+            padding-right: 25px;
+            padding-left: 25px;
+            font-family: sans-serif;
+            margin-top: 5px;
+            &:hover
+            {animation: rotate 200ms ease infinite;}
+            a {text-decoration: none; }
+        @include portable;
+         }}

@@ -1,0 +1,176 @@
+@mixin ultra-tall {
+    @media screen and (max-width:1000px) and (min-width:655px) {
+        .up 
+        {
+            
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+            .up-body
+            {
+                width: 95%;
+            }
+    }
+  
+}}
+
+ @mixin tall {
+    @media screen and (max-width:654px) and (min-width:576px) {
+        .up 
+        {
+            
+            height: 1000px;
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+@mixin middle {
+    @media screen and (max-width:575px) and (min-width:483px) {
+        .up 
+        {
+            
+            height: 1000px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 4s ease forwards;
+    }
+    footer
+    {
+        h3 { 
+        font-size: 0.7em;
+    }
+}}}
+@mixin small {
+    @media screen and (max-width:482px)and(min-width:361px) {
+        .up 
+        {
+            
+            height: 1000px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      section .menu-1 .menu-top {
+        margin: 2em 3em;
+      }
+      section .menu-1 .menu-middle {
+        margin: 2em 3em;
+      }
+      section .menu-1 .menu-down {
+        margin: 2em 3em;
+      }
+      .article
+              {
+                .img{
+                  flex-basis: 30%;
+                }
+              
+              }
+      footer h3 {
+        font-size: 0.7em;
+      }
+}}
+ @mixin extra-small {
+    @media screen and (max-width:375px)and(min-width:342px) {
+        .up 
+        {
+            
+            height: 1075px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background-color: $backMenu;
+            animation: image 7s 2s ease forwards;
+    }
+    .up-body
+    {
+      width: 95%;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      section .menu-1 .menu-top {
+        margin: 2em 3em;
+      }
+      section .menu-1 .menu-middle {
+        margin: 2em 3em;
+      }
+      section .menu-1 .menu-down {
+        margin: 2em 3em;
+      }
+      .article
+              {
+                .img{
+                  flex-basis: 30%;
+                }
+              
+              }
+      footer h3 {
+        font-size: 0.7em;
+      }}
+}
+        @mixin xx-small{
+            @media screen and (max-width:341px)and(min-width:320px) {
+                .up 
+                {
+                    
+                    height: 1150px;
+                    width: 100%;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    background-color: $backMenu;
+                    animation: image 7s 2s ease forwards;
+            }
+            .up-body{
+                width: 99%;
+            }
+            .up .up-body h2 {
+                font-size: 2em;
+              }
+              .up .up-body h1 {
+                font-size: 3em;
+              }
+              section .menu-1 .menu-top {
+                margin: 2em 3em;
+              }
+              section .menu-1 .menu-middle {
+                margin: 2em 3em;
+              }
+              section .menu-1 .menu-down {
+                margin: 2em 3em;
+              }
+              .article
+              {
+                .img{
+                  flex-basis: 30%;
+                }
+              
+              }
+              footer h3 {
+                font-size: 0.7em;
+              }}
+        }

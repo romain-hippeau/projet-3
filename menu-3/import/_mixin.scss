@@ -1,0 +1,259 @@
+@mixin ultra-tall {
+    @media screen and (max-width:900px) and (min-width:701px) {
+        .up 
+        {
+            
+            height: 1025px;
+            width: 700px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+
+ @mixin tall {
+    @media screen and (max-width:700px) and (min-width:591px) {
+        .up 
+        {
+            
+            height: 1100px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            animation: image 7s 2s ease forwards;
+    }
+  
+}}
+@mixin middle {
+    @media screen and (max-width:590px) and (min-width:483px) {
+        .up 
+        {
+            
+            height: 1088px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            animation: image 7s 2s ease forwards;
+    }
+    footer
+    {
+        h3 { 
+        font-size: 0.7em;
+    }
+}}}
+@mixin small {
+    @media screen and (max-width:482px)and(min-width:380px) {
+        .up 
+        {
+            
+            height: 860px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            animation: image 7s 2s ease forwards;
+    }
+    
+    .up-body{
+        width: 99%;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      .title_menu{
+        h2 {
+          font-size: 0.7em;
+        }
+        
+      }
+      section .menu-1 .menu-top {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      section .menu-1 .menu-middle {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      section .menu-1 .menu-down {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      footer h3 {
+        font-size: 0.7em;
+      }
+}}
+ @mixin extra-small {
+    @media screen and (max-width:379px)and(min-width:342px) {
+        .up 
+        {
+            
+            height: 860px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            animation: image 7s 2s ease forwards;
+    }
+    .up-body{
+        width: 99%;
+    }
+    .up .up-body h2 {
+        font-size: 2em;
+      }
+      .up .up-body h1 {
+        font-size: 3em;
+      }
+      .title_menu{
+        h2 {
+          font-size: 0.7em;
+        }
+        
+      }
+      section .menu-1 .menu-top {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      section .menu-1 .menu-middle {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      section .menu-1 .menu-down {
+        margin: 1em 1em 1em 1em;
+        .price{
+          margin-right: 0;
+          flex-basis: 20%;
+        }
+        .name-menu{
+          flex-basis: 80%;
+        }
+        p{
+          margin-left: 0;
+        }
+      }
+      footer h3 {
+        font-size: 0.7em;
+      }}
+}
+        @mixin xx-small{
+            @media screen and (max-width:341px)and(min-width:320px) {
+                .up 
+                {
+                    
+                    height: 943px;
+                    width: 100%;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    animation: image 7s 2s ease forwards;
+            }
+            .up-body{
+                width: 99%;
+            }
+            .up .up-body h2 {
+                font-size: 2em;
+              }
+              .up .up-body h1 {
+                font-size: 3em;
+              }
+              .title_menu{
+                h2 {
+                  font-size: 0.7em;
+                }
+                
+              }
+              section .menu-1 .menu-top {
+                margin: 1em 1em 1em 1em;
+                .price{
+                  margin-right: 0;
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+                p{
+                  margin-left: 0;
+                }
+              }
+              section .menu-1 .menu-middle {
+                margin: 1em 1em 1em 1em;
+                .price{
+                  margin-right: 0;
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+                p{
+                  margin-left: 0;
+                }
+              }
+              section .menu-1 .menu-down {
+                margin: 1em 1em 1em 1em;
+                .price{
+                  margin-right: 0;
+                  flex-basis: 20%;
+                }
+                .name-menu{
+                  flex-basis: 80%;
+                }
+                p{
+                  margin-left: 0;
+                }
+              }
+              footer h3 {
+                font-size: 0.7em;
+              }}
+        }
